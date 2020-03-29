@@ -1,17 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{685EA85F-9769-47E5-855B-4ED0D86950DA}"
 	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		ACKNOWLEDGMENTS.md = ACKNOWLEDGMENTS.md
+		AUTHORS.md = AUTHORS.md
+		CHANGELOG.md = CHANGELOG.md
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
 		Dastragame.sln.licenseheader = Dastragame.sln.licenseheader
 		LICENSE = LICENSE
+		LICENSE.md = LICENSE.md
 		README.md = README.md
+		RELEASE.md = RELEASE.md
+		ROADMAP.md = ROADMAP.md
+		TODO.md = TODO.md
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "docs(1)", "docs\", "{01C81589-23A3-4915-9800-2765A3098794}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "docs", "docs\", "{01C81589-23A3-4915-9800-2765A3098794}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_62550"
@@ -32,13 +42,24 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "docs(1)", "docs\", "{01C815
 		SlnRelativePath = "docs\"
 	EndProjectSection
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Dastragame.SQLServer", "src\Databases\SQL Server 2017\Dastragame.SQLServer\Dastragame.SQLServer.sqlproj", "{00026944-16A1-4290-8118-543B8A9065F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{01C81589-23A3-4915-9800-2765A3098794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{01C81589-23A3-4915-9800-2765A3098794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C81589-23A3-4915-9800-2765A3098794}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C81589-23A3-4915-9800-2765A3098794}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{00026944-16A1-4290-8118-543B8A9065F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00026944-16A1-4290-8118-543B8A9065F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00026944-16A1-4290-8118-543B8A9065F7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{00026944-16A1-4290-8118-543B8A9065F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00026944-16A1-4290-8118-543B8A9065F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00026944-16A1-4290-8118-543B8A9065F7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

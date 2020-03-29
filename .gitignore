@@ -259,3 +259,25 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# logs and temps
+/src/Quorum.net/QuorumMobile/App_Data/Logs
+/src/Quorum.net/QuorumWeb/App_Data/Logs
+
+/src/Quorum.net/QuorumMobile/DXTempFolder
+/src/Quorum.net/QuorumWeb/DXTempFolder
+
+*.bak
+
+# exe libs
+libs/
+libraries/
+files/
+
+# sign key
+*.snk
+
+# custom
+*.licx*
+*.zip
+

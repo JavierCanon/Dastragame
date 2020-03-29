@@ -1,13 +1,15 @@
 extensions: designer.cs generated.cs
-extensions: .cs .cpp .h
-// Copyright (c) 2011 rubicon IT GmbH
+extensions: .cs .cpp .h 
+// GNU GENERAL PUBLIC LICENSE Copyright (c) 2020 Javier Cañon | www.javiercanon.com 
+extensions: .sql 
+/* GNU GENERAL PUBLIC LICENSE Copyright (c) 2020 Javier Cañon | www.javiercanon.com */
 extensions: .aspx .ascx
 <%-- 
-Copyright (c) 2011 rubicon IT GmbH
+GNU GENERAL PUBLIC LICENSE Copyright (c) 2020  Javier Cañon | www.javiercanon.com
 --%>
 extensions: .vb
-'Sample license text.
+'GNU GENERAL PUBLIC LICENSE Copyright (c) 2020  Javier Cañon | www.javiercanon.com
 extensions:  .xml .config .xsd
 <!--
-Sample license text.
+GNU GENERAL PUBLIC LICENSE Copyright (c) 2020  Javier Cañon | www.javiercanon.com
 -->
